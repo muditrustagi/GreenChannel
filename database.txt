@@ -1,0 +1,15 @@
+import mysql.connector
+conn=mysql.connector.connect(user='root',password='1234',host='localhost',database='abhi')
+mycursor=conn.cursor()
+mycursor.execute("SELECT BREADTH FROM greeenchannel WHERE VCODE='WB04J1234';")
+b=mycursor.fetchall()
+print(b)
+
+
+import mysql.connector
+conn=mysql.connector.connect(user='root',password='1234',host='localhost',database='abhi')
+mycursor=conn.cursor()
+p='WB04J1234'
+mycursor.execute("SELECT BREADTH FROM greeenchannel WHERE VCODE=p;")
+b=mycursor.fetchall()
+print(b)
