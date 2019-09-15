@@ -1,0 +1,2 @@
+# GreenChannel
+Providing Ambulances, Fire trucks and other emergency vehicles, a faster, more efficient route, through  traffic surveillance, and vehicle redirection. Console Based Application that uses live traffic status to redirect the oncoming vehicles to maintain effective laning. During times of emergency the necessary lanes are allowed to move ahead, thereby allowing the emergency vehicle to reach its destination as fast as possible. 
